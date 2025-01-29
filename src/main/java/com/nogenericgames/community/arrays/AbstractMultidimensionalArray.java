@@ -4,6 +4,7 @@ package com.nogenericgames.community.arrays;
 
 import java.util.Arrays;
 
+@Deprecated
 public abstract class AbstractMultidimensionalArray implements Dimensional {
 
     /**

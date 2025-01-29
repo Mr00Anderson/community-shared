@@ -3,6 +3,7 @@ package com.nogenericgames.community.arrays;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+@Deprecated
 public class GenericMultidimensionalArray<T> extends AbstractMultidimensionalArray {
 
     private final T[] data;

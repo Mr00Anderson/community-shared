@@ -7,6 +7,7 @@ import java.util.Arrays;
  * <p>
  * This implementation uses individual fields for dimensions to avoid array indirection during index calculation.
  */
+@Deprecated
 public class FloatMultidimensionalArray extends AbstractMultidimensionalArray {
 
     private final float[] data;
